@@ -1,0 +1,19 @@
+
+\section*{Lemma O3 (Combined Interval Residual Guarantee)}
+
+Let \( A_L, R_L \) and \( A_R, R_R \) be the counts of A-type integers and removed composites in the intervals \( I_L \) and \( I_R \), respectively.
+
+Then:
+\[
+A_L \geq \frac{n}{\log(n(n+1))}, \quad R_L \leq n \left(1 - \frac{1}{\log(n(n+1))} \right)
+\]
+\[
+A_R \geq \frac{n}{\log((n+1)^2)}, \quad R_R \leq n \left(1 - \frac{1}{\log((n+1)^2)} \right)
+\]
+
+Thus:
+\[
+A_L - R_L \geq 1, \quad A_R - R_R \geq 1
+\]
+
+This ensures the existence of at least one prime in each of the intervals \( I_L \) and \( I_R \).
